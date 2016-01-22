@@ -33,7 +33,7 @@ entries[i].innerHTML=e;
 $('.bingoEntry').each(function(i,e){
 
 
-katex.render(e.innerHTML, e);
+katex.render(e.innerHTML, e); //comment out this value to prevent all KaTEX rendering
 
 
 })
